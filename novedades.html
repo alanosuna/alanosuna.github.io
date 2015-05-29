@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="utf-8"> 
-    <title>JENI uniformes</title>
-    <link rel="stylesheet" href="css/estjeni.css">
+	<meta charset="UTF-8">
+    <title>JN Uniformes</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/misestilos.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+    <script src="js/jquery.js"></script>
 </head>
-
-<body background="fondo2.jpg">
-  <nav class="navbar navbar-default">
+<body>
+	<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -19,24 +17,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>      
-      <a class="navbar-brand" href="jeni.html">JN Uniformes</a>
+      </button>
+      <a class="navbar-brand" href="index.php" style="color:orange">JN-Uniformes</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="novedades.html">NOVEDADES <span class="sr-only">(current)</span></a></li>
+
+        <li><a href="novedades.html">NOVEDADES</a></li>
         <li><a href="informacion.html">INFORMACION</a></li>
-        <li><a href="pedidos.html">PEDIDOS</a></li>
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">NOSOTROS <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">       
-            <li><a href="mision.html">Mision</a></li>           
-            <li><a href="vision.html">Vision</a></li>
-          </ul>          
-        </li>
-
+        <li><a href="historico.html">PEDIDOS</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">DISEÑOS <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -50,60 +40,70 @@
             <li><a href="otros.html">Otros</a></li>
           </ul>
         </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">NOSOTROS <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li class="divider"></li>
+            <li><a href="vision.html">Vision</a></li>
+            <li><a href="mision.html">Mision</a></li>
+          </ul>
+        </li>
+
       </ul>
-       <ul class="nav navbar-nav navbar-right">
+
+      <ul class="nav navbar-nav navbar-right">
         <li><a href="noticias.html">Noticias</a></li>
       </ul>
     </div>
   </div>
 </nav>
-   <div class="container">
+
+<div class="container">
     <div class="row">
           <font class="c1"><h1 align="left"><b>NOVEDADES</b></h1></font>
            <div class="col-xs-4">
-              <a href="2.jpg" class="thumbnail">
+              <a href="imgs/2.jpg" class="thumbnail">
                 <p>TELA CAMUFLAJEADA CAFE</p> 
-                <img src="2.jpg" alt="camuflash rojo" style='width:150px;height:150px'>
+                <img src="imgs/2.jpg" style='width:150px;height:150px'>
               </a>
            </div>
            <div class="col-xs-4">
-              <a href="3.jpg" class="thumbnail">
+              <a href="imgs/3.jpg" class="thumbnail">
                 <p>TELA CAMUFLAJEADA ROJA</p>
-                <img src="3.jpg"  style="width:150px;height:150px">
+                <img src="imgs/3.jpg"  style="width:150px;height:150px">
               </a>
            </div>
            <div class="col-xs-4">
-             <a href="4.jpg" class="thumbnail">
+             <a href="imgs/4.jpg" class="thumbnail">
                <p>BORDADOS ESTILOS MLB</p> 
-               <img src="4.jpg" style="width:150px;height:150px">
+               <img src="imgs/4.jpg" style="width:150px;height:150px">
              </a>
            </div>
         </div> 
 
         <div class="row">
            <div class="col-xs-4">
-              <a href="20.jpg" class="thumbnail">
+              <a href="imgs/20.jpg" class="thumbnail">
                 <p>BORDADOS ESTILOS MLB</p> 
-                <img src="20.jpg" style="width:150px;height:150px">
+                <img src="imgs/20.jpg" style="width:150px;height:150px">
               </a>
            </div>
         
            <div class="col-xs-4">
-              <a href="11.jpg" class="thumbnail">
+              <a href="imgs/11.jpg" class="thumbnail">
                 <p>BORDADOS ESTILOS MLB</p> 
-                <img src="11.jpg" style="width:150px;height:150px">
+                <img src="imgs/11.jpg" style="width:150px;height:150px">
               </a>
            </div>
 
            <div class="col-xs-4">
-             <a href="22.jpg" class="thumbnail">
+             <a href="imgs/22.jpg" class="thumbnail">
                 <p>BORDADOS ESTILOS MLB</p> 
-                <img src="22.jpg" style="width:150px;height:150px">
+                <img src="imgs/22.jpg" style="width:150px;height:150px">
              </a>
            </div>
     </div>
   </div>
-
 
 
 <hr>
@@ -114,5 +114,7 @@
     </div>
   </div>
  </footer>
+
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>

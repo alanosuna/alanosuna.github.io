@@ -60,22 +60,12 @@
 </nav>
 
 <div class="container">
-    <div class="row">
-  <div class='col-xs-1'></div>
-
-  <div  class="col-xs-10">
-  <div class="thumbnail">
-   <img class="img-responsive img-rounded" src="imgs/jeni.jpg" alt="" style="width:200px;height:200px">
-   <div class="caption">
-     <h3>Vision</h3>
-     <p style="color:black">Ser la empresa lider en la fabricacion y distribucion de uniformes deportivos. Lograremos la 
-          excelencia en calidad y tecnologia hacia nuestros clientes. Aunado a ello, nos comprometemos
-          a ofrecerles el mejor servicio posible para seguir gozando de su preferencia.</p>
-   </div>   
-  </div>
- </div>
-
-   <div class='col-xs-1'></div>
+  <div class="row">
+    <div class="jumbotron">
+  <h1>Uniformes al alcance de un "CLICK"</h1>
+  <p>Un equipo campeon siempre debe lucir como uno.</p>
+  <p align="center"><img src="imgs/jeni.jpg" width="400px" class="img-responsive img-circle" alt=""></p>  
+</div>
   </div>
 </div>
 
